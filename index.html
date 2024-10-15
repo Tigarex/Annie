@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Event RSVP form with Guest List">
+    <meta name="author" content="Rexzo">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    
+    </style>
+</head>
+
+
+<body>
+    <h1>RSVP form</h1>
+    <form>
+        Name: <input type="text" name="name"></input><br/>
+        <br/>
+        Email: <input type="Email" name="email"></input><br/>
+        <br/>
+        Phone number: <input type="text" name="phone_number"></input><br/>
+        <br/>
+
+        <h2>Will you attend?</h2>
+        <input type="radio" name="conference" value="yes">Yes</input><br/>
+        <br/>
+        <input type="radio" name="conference" value="no">No</input><br/>
+        <br/>
+
+        <h2>Number of guests</h2>
+
+        <select name="dropdown">
+            <option value="0">0</option><br/>
+            <br/>
+            <option value="1">1</option><br/>
+            <br/>
+            <option value="2">2</option><br/>
+            <br/>
+            <option value="3">3</option><br/>
+            <br/>
+            <option value="4">4</option><br/>
+            <option value="5">5</option><br/>
+            <br/>
+            
+        </select>
+        <br/>
+        <br/>
+
+
+        <textarea rows="10" cols="50" name="Dietary restrictions">
+            Any dietary restrictions?
+        </textarea><br/>
+        <br/>
+
+        <h2>Submit button</h2>
+        <input type="submit" name="submit" value="submit"></input><br/>
+        <br/>
+
+
+    </form>
+    <h2>A Guest list table</h2>
+
+    <table style="width:50%">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Will you attend?</th>
+            <th>Number of guests</th>
+            <th>Any dietary restrictions</th>
+        </tr>
+        <tr>
+            <td>Tyga</td>
+            <td>fin@gmail.com</td>
+            <td>07022759031</td>
+            <td>No</td>
+            <td>0</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <td>Gideon</td>
+            <td>re@gmail.com</td>
+            <td>08076542890</td>
+            <td>Yes</td>
+            <td>1</td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Coded</td>
+            <td>coddy@gmail.com</td>
+            <td>09078935127</td>
+            <td>Yes</td>
+            <td>2</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Alpha</td>
+            <td>biggie@gmail.com</td>
+            <td>07034890341</td>
+            <td>No</td>
+            <td>3</td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Famouz</td>
+            <td>escobar@gmail.com</td>
+            <td>08046789321</td>
+            <td>Yes</td>
+            <td>4</td>
+            <td>No</td>
+        </tr>
+
+        <tr>
+            <td>Yucee</td>
+            <td>cream@gmail.com</td>
+            <td>09187035478</td>
+            <td>No</td>
+            <td>5</td>
+            <td>Yes</td>
+        </tr>
+
+        <tr>
+            <td>Ugostan</td>
+            <td>btclord@gmail.com</td>
+            <td>09167683984</td>
+            <td>Yes</td>
+            <td>6</td>
+            <td>No</td>
+        </tr>
+    </table>
+
+    
+</body>
+
+
+</html>
